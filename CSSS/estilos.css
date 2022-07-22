@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    background-image: url("../img/titulos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+
+.logo img{
+    height: 500px;
+    position: relative;
+    left: 15px;
+    top: 30px;
+}
+
+h1.lugar{
+    color:  #ffffff  ;
+    font-size: 50px;
+    font-family: 'Abel', sans-serif;
+    margin-top:-60px;
+    margin-left: 10px;
+}
+
+h1.sublugar{
+    color:  #d4f5ff  ;
+    font-size: 130px;
+    position: relative;
+    bottom: 25px;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 25px;
+}
+
+h2{
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgb(233, 234, 235);
+    background-size: 100;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(85, 84, 84);
+    font-size: 35px;
+    margin-left: 230px;
+    padding: 5px;
+    animation-name: desplazarse;
+    animation-duration: 2s;
+    position: relative;
+    animation-direction:reverse;
+}
+nav a{
+    font-size: 25px;  
+    font-family: 'Abel', sans-serif;
+    position: relative;
+    left: 650px;
+    justify-content: center;
+    align-items: center;
+    color:#3583e5;
+    background-color: #ffffff;
+    padding: 0px 20px 0px 20px;
+    border-radius: 500px;
+    margin: 20px;
+
+}
+
+.modelo img{
+    width: 1150px;
+    height: 550px;
+    margin-top: px;
+    padding: 5px;
+    margin-left: 10px; 
+    animation-name: desplazarse;
+    animation-duration: 1s;
+    position: relative;
+    animation-direction:reverse;
+    transform: translate(30px);
+}
+
+.modelo img:hover{
+    transform: scale(1.05) translate(50px);
+}
+
+.foda img{
+    width: 1150px;
+    height: 700px;
+    margin-left: 600px; 
+    animation-name: desplazarse;
+    animation-duration: 1s;
+    position: relative;
+    animation-direction:reverse;
+    transform: translate(30px);
+}
+
+.foda img:hover{
+    transform: scale(1.05) translate(50px);
+}
+
+
+body{
+    background-image: url("../img/fondopng.png");
+    height: 100vh;
+}
+
+.wsp img{
+    height: 200px;
+    position: fixed;
+}
+
+
+
+@keyframes desplazarse{
+    0%{  right: 0; }
+    50%{}
+    100%{
+        right: 80%;  
+    }
+    }
+
+@keyframes titulo{
+    50%{ } 
+    50%{}
+    50%{}
+}
